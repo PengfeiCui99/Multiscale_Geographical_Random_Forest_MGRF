@@ -13,7 +13,7 @@ Inspired by previous Geographical Random Forest (GRF) studies:
 
 # Model Framework
 
-![image-20250310172210755](/Users/cpf/Library/Application Support/typora-user-images/image-20250310172210755.png)
+![Model.jpg](https://github.com/PengfeiCui99/Multiscale-Geographical-Random-Forest-MGRF-/MGRF_codes/Model.png)
 
 # Repository Structure
 
