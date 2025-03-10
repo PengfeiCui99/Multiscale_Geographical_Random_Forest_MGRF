@@ -13,7 +13,7 @@ Inspired by previous Geographical Random Forest (GRF) studies:
 
 # Model Framework
 
-![Model.jpg](https://github.com/PengfeiCui99/Multiscale-Geographical-Random-Forest-MGRF-/MGRF_codes/Model.png)
+![Model.jpg](https://github.com/PengfeiCui99/Multiscale-Geographical-Random-Forest-MGRF-/MGRF_codes/Model.jpg)
 
 # Repository Structure
 
