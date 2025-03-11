@@ -248,8 +248,9 @@ class PyMGRFBuilder:
                             p_value = moran.p_norm
                             z_score = moran.z_norm
                         except Exception as e:
-                            print(f"Moran's I计算失败: {str(e)}")
                             current_score = -np.inf
+                            p_value = np.inf
+                            z_score = -np.inf
 
                     else:
                         r2_local = r2_score(local_y_train, oob_predictions)
@@ -264,7 +265,6 @@ class PyMGRFBuilder:
                             p_value = moran.p_norm
                             z_score = moran.z_norm
                         except Exception as e:
-                            # print(f"Moran's I计算失败: {str(e)}")
                             current_score = -np.inf
                             p_value = np.inf
                             z_score = -np.inf
