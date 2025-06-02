@@ -54,7 +54,7 @@ print("Fitting OK!")
 Evaluate model performance on a test dataset:
 
 ```python
-predict_combined, predict_global, predict_local = model.predict(X_test, test_coords, predict_bw = 70, local_weight=0.8)
+predict_combined, predict_global, predict_local = model.predict(X_test, test_coords, local_weight=0.8)
 print("Test OK!")
 predict_local = np.array(predict_local)
 predict_global = np.array(predict_global)
